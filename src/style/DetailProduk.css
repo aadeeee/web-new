@@ -1,0 +1,52 @@
+.containerD{
+    margin: 40px 100px;
+}
+
+.gbr{
+    display: flex;
+}
+img{
+    width: 400px;
+    height: 400px;  
+}
+.dataproduk{
+    margin-left: 50px;
+}
+.dataproduk div{
+    padding-bottom: 20px;
+}
+.namaproduk{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.harga{
+    display: flex;
+    font-weight: bold;
+}
+.nominal{
+    font-size: 30px;
+}
+
+.bagian{
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+}
+.bagian div{
+    padding: 0px 20px;
+    box-sizing: border-box;
+}   
+
+#detail{
+    border-bottom: 1px solid #567189;
+}
+
+.addtocart {
+    background-color: #567189;
+    color: white;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    width: 600px;
+    height:30px
+}

@@ -1,0 +1,204 @@
+
+.containerA{
+    display: flex;
+    border-bottom: 1px solid rgb(206, 199, 199);
+    box-shadow: 2px 2px 2px rgba(216, 215, 215, 0.8);
+    align-items: baseline;
+    font-size: 15px;
+    justify-content: center;
+    padding-bottom: 1px;
+}
+
+.containerA div{
+    padding: 0 10px;
+    margin: 10px ;
+    box-sizing: border-box;
+}   
+.utama{
+    font-size: 30px;
+    color: #00337C;
+    float: left;
+    font-weight: bold;
+}
+
+.containerA p{
+    font-size: 20px;
+    color: #567189
+}
+.search{
+    width: 750px;
+}
+
+.containerB{
+    padding: 0 2px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: baseline;
+}
+.ikon{
+    font-size: 25px;
+    margin: 0 -5px;
+}
+
+.nama{
+    font-size: 18px;
+    color: black;
+}
+
+.containerC{
+    margin: 40px 90px;
+    display: flex;
+    box-sizing: border-box;
+    
+}
+
+.kiri{
+    border: 1px solid rgb(224, 221, 221);
+    margin-right: 15px;
+    padding-right: 20px ;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#nama{
+    display: flex;
+    border-bottom: 1px solid rgb(199, 193, 193);
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+#nama .ikon{
+    font-size: 50px;
+    margin-left: 15px;
+}
+#plus{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    color : white;
+    font-size: 13px;
+    background-color: #567189;
+    border-radius: 30em;
+    justify-content: center;
+    width: 150px;
+}
+
+span{
+    margin-left: 5px ;
+}
+.pay{
+    display: flex;
+    padding:   20px 30px;
+    justify-content: space-between;
+    font-size: 15px;
+}
+BsCreditCard2Back{
+    color: blue;
+}
+
+#ijo{
+    color: #567189;
+    font-weight: bold;
+}
+.member{
+    display: flex   ;
+    padding:   25px 30px;
+    align-items: baseline;
+}
+
+#hitam{
+    color: black;
+    font-weight: bold;
+}
+
+.member .ikon{
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+table{
+    padding-top: 3px;
+    margin-top: 3px;
+}
+#angka{
+    padding-left: 60px;
+
+}
+
+#atas{
+    display: flex;
+}
+
+#atas .nama{
+    padding-left: 5px;
+    font-size: 20px;
+}
+.kanan{
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 10px;
+}
+.menu{
+    display: flex;
+}
+
+.menu1{
+    color: #567189;
+    border-bottom: 1px solid #567189;
+}
+.menu div{
+    padding: 10px 20px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.data{
+    display: flex;
+    border-top: none;
+    padding: 40px;
+}
+.foto{
+    padding: 15px 0;
+}
+
+.foto img{
+    height: 250px;
+    width: 250px;
+    border: 1px solid white;
+}
+
+#pilih {
+    margin-top: 10px;
+    font-weight: bold;
+    border: 1px solid #567189;
+    border-radius: 1em;
+    height: 40px;
+    background-color: #567189;
+    text-align: center;
+}
+#pilih a{
+    color: white;
+    padding-top: 7px;
+    text-decoration: none;
+}
+
+.bio{
+    margin-left: 50px;
+    padding: 3px 0;
+}
+
+.bio p, td{
+    padding: 10px 0;
+}
+.bio p{
+    font-weight: bold;
+}
+.bio td{
+    padding-right: 40px;
+}
+
+.bio a{
+    text-decoration: none;
+    color: #567189;
+}

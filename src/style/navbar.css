@@ -1,0 +1,39 @@
+
+
+.form-inputs .form-control{
+    height:30px; 
+    font-size: 11px;
+    width: 500px;
+    
+}
+.nav-item{
+    font-size:medium;
+    align-items:center ;
+}
+.form-inputs .form-control:focus{
+    box-shadow:none;
+    border:1px solid #000;
+    align-content: center;
+}
+.container-fluid{
+    font-size: 11px;
+    
+}
+
+#nav{
+    height: 50px;
+    background: lightgray;
+}
+
+
+
+#menu{
+    margin-top: 0px;
+    height: 20px;
+}
+
+
+.box{
+    width: 550px;
+}
+

@@ -1,0 +1,115 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+
+.grid-item {
+
+    padding: 10px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+.gambar1{
+    width: 75px;
+    height: 75px;
+}
+
+#toko{
+    border-bottom: 5px;
+    font-size: large;
+}
+
+.blur {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+#produk{
+    border-bottom: solid #EEEEEE 4px ;
+}
+
+.pad{
+    border-bottom: solid #EEEEEE 4px ;
+   margin-left: 150px;
+   margin-right: 150px;
+
+}
+.cart{
+    padding-left: 150px;
+
+}
+.keranjang{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.catatan{
+    font-size: 7px;
+}
+.bayar{
+    margin-top: 50px;
+    margin-left: 150px;
+   position: fixed;
+}
+.full{
+    z-index: 1;
+    padding: 5px;
+}
+
+.flex-container1 {
+    display: flex;
+    padding-top: 5px;
+    padding-left: 20px;
+
+  }
+
+.flex-container1 > div {
+    padding: 5px;
+    font-size: 15px;
+    width: auto;
+  }
+.input{
+    padding-bottom: 20px;
+
+}
+.sampah{
+    padding-top: 20px;
+    font-size: 30px;
+    padding-left: 50px;
+    color: red;
+    cursor: pointer;
+}
+s{
+    color: red;
+    font-size: 15px;
+}
+.jumlah{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-container3 {
+    display: flex;
+  }
+  .belanja{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+.delete5{
+    margin-left: 300px;
+    border-radius: 10px ;
+    border-color: red;
+    font-size: 10px;
+    color: wheat;
+    font-weight: bolder;
+    height: 30px;
+    background-color: red;
+}

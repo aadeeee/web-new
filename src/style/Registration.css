@@ -1,0 +1,30 @@
+.iconRegis {
+    width: 450px;
+    height: 450px;
+}
+
+.signUp {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.buttonRegis {
+    margin-bottom: 4px;
+    text-align: center;
+    background-color: #567189;
+}
+
+.fullRegis {
+    background-color: antiquewhite;
+}
+
+.flex-container10 {
+    display: flex;
+}
+.password{
+    left: 0;
+}
