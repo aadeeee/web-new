@@ -6,7 +6,6 @@ const barang = require("./model/produk");
 const Cart = require("./model/cart")
 const User = require('./model/user')
 var jwt = require("jsonwebtoken");
-var bcrypt = require("bcryptjs");
 const config = require("./jwt/authjwt");
 const auth = require("./jwt/verify")
 // Toko.insertMany([
@@ -408,7 +407,7 @@ router.post("/register",[auth.checkDuplicateUsernameOrEmail], (req, res) => {
         email: req.body.email,
         gender:req.body.gender,
         noHp:req.body.noHp,
-        password: bcrypt.hashSync(req.body.password, 8)
+        password: req.body.password
     });
 
     user.save((err, user) => {
